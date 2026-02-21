@@ -1,4 +1,4 @@
-Arasha Lenana | Portfolio
+Arasha Lenana - Portfolio
 
 Welcome to my personal portfolio! This website showcases my web development projects, technical skills, and contact information. It demonstrates my ability to create responsive, user-friendly, and business-focused websites.
 
@@ -10,7 +10,7 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 - Responsive website showcasing rooms, swimming packages, and contact info.
 - Live: [Capulus Boutique](https://capulusboutique.netlify.app/)
 - Screenshot:
-  ![Capulus Screenshot](./images/capulus.png)
+  ![Capulus Screenshot](images/capulus.png)
 
 2. Greenland Homepage Website
 - Homepage for Greenland highlighting scenic views and interactive features.
