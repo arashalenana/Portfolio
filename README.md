@@ -10,19 +10,19 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 - Responsive website showcasing rooms, swimming packages, and contact info.
 - Live: [Capulus Boutique](https://capulusboutique.netlify.app/)
 - Screenshot:
-  ![Capulus Screenshot](images/capulus.png)
+  ![Capulus Screenshot](./images/capulus.png)
 
 2. Greenland Homepage Website
 - Homepage for Greenland highlighting scenic views and interactive features.
 - Live: [Greenland Homepage](https://arashalenana.github.io/visit-greenland/)
 - Screenshot:
-  ![Greenland Screenshot](images/greenland.png)
+  ![Greenland Screenshot](./images/greenland.png)
 
 3. Fitco Fitness Website
 - Fitness center website showcasing gym facilities and contact details.
 - Run locally with XAMPP.
 - Screenshot:
-  ![Fitco Screenshot](images/fitco.png)
+  ![Fitco Screenshot](./images/fitco.png)
 
 🛠️ Tech Stack
 - HTML5, CSS3, JavaScript
