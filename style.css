@@ -156,6 +156,28 @@ section { padding:60px 10%; }
     color: var(--gray);
     font-size: 12px;
 }
+.project-link {
+  padding: 10px 20px;
+  background: var(--primary);
+  color: white !important;
+  font-size: 14px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.project-link i {
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+.project-link:hover {
+    background-color: #1d4ed8;
+    color: white; 
+}
+.project-link:hover i {
+    transform: translateX(3px);
+}
 /* Contact & Footer */
 .contact { text-align:center; }
 .contact a { color: var(--primary); text-decoration:none; }
