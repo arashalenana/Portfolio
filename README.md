@@ -16,13 +16,13 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 - Homepage for Greenland highlighting scenic views and interactive features.
 - Live: [Greenland Homepage](https://arashalenana.github.io/visit-greenland/)
 - Screenshot:
-  ![Greenland Screenshot](./images/greenland.png)
+  ![Greenland Screenshot](images/greenland.png)
 
 3. Fitco Fitness Website
 - Fitness center website showcasing gym facilities and contact details.
 - Run locally with XAMPP.
 - Screenshot:
-  ![Fitco Screenshot](./images/fitco.png)
+  ![Fitco Screenshot](images/fitco.png)
 
 🛠️ Tech Stack
 - HTML5, CSS3, JavaScript
