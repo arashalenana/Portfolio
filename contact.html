@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arasha Lenana - Contact</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script>
+(function () {
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.documentElement.classList.add("dark");
+  } else if (savedTheme === "light") {
+    document.documentElement.classList.remove("dark");
+  } else {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+    }
+  }
+})();
+</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h1>Arasha Lenana</h1>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html" class="active-link">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <button class="toggle-btn" onclick="toggleMode()">
+      <i id="themeIcon" class="fas fa-moon"></i>
+    </button>
+
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+<main>
+<section class="hero reveal" id="contact-hero">
+  <h2>Contact <span>Me</span></h2>
+  <p>Feel free to reach out to me via email or connect on my social profiles.</p>
+  <p>I'm open to discussing new projects, collaborations, or any opportunities.</p>
+  <p>Looking forward to connecting with you!</p>
+</section>
+
+<section class="reveal" id="contact-section">
+  <div class="contact-container">
+
+    <div class="contact-card">
+      <i class="fas fa-envelope fa-2x"></i>
+      <h3>Email</h3>
+      <p><a href="mailto:arashalenana@gmail.com" target="_blank">arashalenana@gmail.com</a></p>
+    </div>
+
+    <div class="contact-card">
+      <i class="fab fa-github fa-2x"></i>
+      <h3>GitHub</h3>
+      <p><a href="https://github.com/arashalenana" target="_blank">github.com/arashalenana</a></p>
+    </div>
+
+    <div class="contact-card">
+      <i class="fab fa-linkedin fa-2x"></i>
+      <h3>LinkedIn</h3>
+      <p><a href="https://www.linkedin.com/in/ian-arasha-44b95931b/" target="_blank">linkedin.com/in/arashalenana</a></p>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<footer>
+  © 2026 Arasha Lenana. All rights reserved.
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
