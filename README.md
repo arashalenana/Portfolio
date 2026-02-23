@@ -8,7 +8,7 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 💻 Projects
 1. Capulus Restaurant Website
 - Responsive website showcasing rooms, swimming packages, and contact info.
-- Live: [Capulus Boutique](https://capulusboutique.netlify.app/)
+- Live: [Capulus Boutique](https://capulushotel.netlify.app/)
 - Screenshot:
   ![Capulus Screenshot](https://github.com/arashalenana/Portfolio/raw/master/images/capulus.png)
 
