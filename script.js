@@ -41,14 +41,35 @@ function toggleMode() {
 }
 
 
-//HAMBURGER MENU TOGGLE
-function toggleMenu() {
-  const navLinks = document.getElementById("navLinks");
-  const hamburger = document.getElementById("hamburger");
-
-  if (navLinks) navLinks.classList.toggle("active");
-  if (hamburger) hamburger.classList.toggle("active");
+// MOBILE MENU TOGGLE
+function toggleMobileMenu() {
+  const sidebar = document.querySelector('.sidebar');
+  const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+  
+  if (sidebar) {
+    sidebar.classList.toggle('mobile-menu-open');
+  }
+  
+  if (mobileMenuToggle) {
+    mobileMenuToggle.classList.toggle('active');
+  }
 }
+
+// Close mobile menu when clicking on overlay
+document.addEventListener('click', function(event) {
+  const sidebar = document.querySelector('.sidebar');
+  const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+  
+  // Check if the sidebar is open and the click is outside the sidebar and toggle button
+  if (sidebar && sidebar.classList.contains('mobile-menu-open') && 
+      !sidebar.contains(event.target) && 
+      !mobileMenuToggle.contains(event.target)) {
+    sidebar.classList.remove('mobile-menu-open');
+    if (mobileMenuToggle) {
+      mobileMenuToggle.classList.remove('active');
+    }
+  }
+});
 
 
 //SCROLL REVEAL FUNCTION 
@@ -85,12 +106,12 @@ function animateSkills() {
 
 
 // SMOOTH SCROLL FOR NAV LINKS
-document.querySelectorAll("nav a").forEach((link) => {
+document.querySelectorAll("nav a, .sidebar-nav a").forEach((link) => {
   link.addEventListener("click", (e) => {
     const href = link.getAttribute("href");
 
     // Only handle anchor links
-    if (href.startsWith("#")) {
+    if (href && href.startsWith("#")) {
       e.preventDefault();
 
       const targetId = href.substring(1);
@@ -99,14 +120,16 @@ document.querySelectorAll("nav a").forEach((link) => {
       if (targetSection) {
         targetSection.scrollIntoView({ behavior: "smooth" });
       }
+    }
 
-      // Close mobile menu if open
-      const navLinks = document.getElementById("navLinks");
-      const hamburger = document.getElementById("hamburger");
-
-      if (navLinks && navLinks.classList.contains("active")) {
-        navLinks.classList.remove("active");
-        hamburger.classList.remove("active");
+    // Close mobile menu if open
+    const sidebar = document.querySelector('.sidebar');
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    
+    if (sidebar && sidebar.classList.contains('mobile-menu-open')) {
+      sidebar.classList.remove('mobile-menu-open');
+      if (mobileMenuToggle) {
+        mobileMenuToggle.classList.remove('active');
       }
     }
   });
