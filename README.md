@@ -47,7 +47,7 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 - Interactive project cards with links
 
 💡 Notes
-- Some projects (like f1tco) require XAMPP to run locally for backend features.
+- Some projects (like f1tco) require XAMPP to run locally for backend features like PHP.
 - All live links are hosted via Netlify and Github for static projects.
 
 📫 Contact Me
