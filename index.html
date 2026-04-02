@@ -128,20 +128,21 @@
         <div class="project-preview-card">
           <img src="images/mambo.png" alt="Mambo Furniture">
           <h3>Interior Design Website</h3>
-          <p>Modern interior design business website showcasing their work</p>
+          <p>Modern interior design business website showcasing their work</p><br><br>
           <a href="https://mambofurniture.netlify.app/" class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="project-preview-card">
           <img src="images/capulus.png" alt="Capulus Hotel">
           <h3>Capulus Hotel Website</h3>
-          <p>Boutique hotel website with booking system</p>
+          <p>Boutique hotel website with booking system</p><br><br><br>
           <a href="https://capulushotel.netlify.app/" class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
         </div>
       
         <div class="project-preview-card">
           <img src="images/fitco.png" alt="FITCO Fitness">
           <h3>FITCO Fitness Center</h3>
-          <p>Fitness website</p>
+          <p>Comprehensive fitness center management website with member registration</p>
+          <p class="fitness">Run locally with XAMPP</p>
           <a href="https://github.com/arashalenana/FITCO" class="project-link" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -180,6 +181,7 @@
     }
   })();
 
+  // Toggle between light and dark mode
   function toggleMode() {
     document.documentElement.classList.toggle("dark");
     if (document.documentElement.classList.contains("dark")) {
@@ -190,6 +192,7 @@
     updateThemeIcon();
   }
 
+  // Update theme icon based on current theme
   function updateThemeIcon() {
     const icon = document.getElementById("themeIcon");
     if (document.documentElement.classList.contains("dark")) {
@@ -229,6 +232,7 @@
     }
   })();
 
+  // Toggle between light and dark mode
   function toggleMode() {
     const icon = document.getElementById("themeIcon");
     document.documentElement.classList.toggle("dark");
@@ -240,6 +244,7 @@
     updateThemeIcon();
   }
 
+  // Update theme icon based on current theme
   function updateThemeIcon() {
     const icon = document.getElementById("themeIcon");
     if (document.documentElement.classList.contains("dark")) {
@@ -259,6 +264,7 @@
     }
   }
 
+  // Set active nav item on click
   document.querySelectorAll(".nav-item").forEach(link => {
     link.addEventListener("click", (e) => {
       document.querySelectorAll(".nav-item").forEach(l => l.classList.remove("active"));
@@ -266,6 +272,7 @@
     });
   });
 
+  // Set active nav item on scroll
   window.addEventListener("scroll", () => {
     const sections = document.querySelectorAll(".content-section, .hero-section");
     const navItems = document.querySelectorAll(".nav-item");

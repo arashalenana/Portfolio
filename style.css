@@ -474,7 +474,11 @@ body {
 .project-link:hover {
   transform: translateX(4px);
 }
-
+.fitness {
+  font-size: 11px;
+  color: lightslategray;
+  margin-top: 8px;
+}
 /* Contact Section */
 .contact-links {
   display: grid;
