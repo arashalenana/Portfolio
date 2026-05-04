@@ -20,7 +20,7 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 
 3. Fitco Fitness Website
 - Fitness center website showcasing gym facilities and contact details.
-- Run locally with XAMPP.
+- Live: [F1TCO](https://f1tco.infinityfreeapp.com/)
 - Screenshot:
   ![Fitco Screenshot](https://github.com/arashalenana/Portfolio/raw/master/images/fitco.png)
 
@@ -33,7 +33,7 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 🛠️ Tech Stack
 - HTML5, CSS3, JavaScript
 - Responsive design
-- Basic PHP for backend projects (run locally with XAMPP if required)
+- Basic PHP for backend projects 
 
 📂 Structure
 - `index.html` – Landing page / Home
@@ -53,8 +53,8 @@ Check it out here: (https://arashalenana.github.io/Portfolio/)
 - Interactive project cards with links
 
 💡 Notes
-- Some projects (like f1tco) require XAMPP to run locally for backend features like PHP.
 - All live links are hosted via Netlify and Github for static projects.
+- Backend projects are hosted via InfinityFree.
 
 📫 Contact Me
 - Email: arashalenana@gmail.com  
