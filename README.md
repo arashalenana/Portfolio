@@ -119,4 +119,6 @@ The portfolio represents my work across areas including:
 
 **LinkedIn:** https://www.linkedin.com/in/ian-arasha-44b95931b/
 
+## 📄 License
+
 This project is licensed under the MIT License.
