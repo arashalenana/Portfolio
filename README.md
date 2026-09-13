@@ -8,7 +8,7 @@ The portfolio highlights selected projects, technical skills, services, and ways
 
 ## 🌐 Live Portfolio
 
-**Visit:** [https://arashadev.netlify.app/]
+**Visit:** https://arashadev.netlify.app/
 
 ## 🚀 Featured Projects
 
@@ -118,6 +118,5 @@ The portfolio represents my work across areas including:
 **GitHub:** https://github.com/arashalenana
 
 **LinkedIn:** https://www.linkedin.com/in/ian-arasha-44b95931b/
-
 
 This project is licensed under the MIT License.
